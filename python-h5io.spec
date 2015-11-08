@@ -4,7 +4,7 @@
 
 Name:           python-%{modname}
 Version:        0.1
-Release:        0.1git%{shortcommit}%{?dist}
+Release:        0.2.git%{shortcommit}%{?dist}
 Summary:        Read and write simple Python objects using HDF5
 
 License:        BSD
@@ -82,5 +82,8 @@ nosetests-%{python3_version} -v
 %{python3_sitelib}/%{modname}*
 
 %changelog
-* Sun Nov 08 2015 Igor Gnatenko <i.gnatenko.brain@gmail.com> - 0.1-0.1gita73bba4
+* Sun Nov 08 2015 Igor Gnatenko <i.gnatenko.brain@gmail.com> - 0.1-0.2.gita73bba4
+- Massage versioning a bit
+
+* Sun Nov 08 2015 Igor Gnatenko <i.gnatenko.brain@gmail.com> - 0.1-0.1.gita73bba4
 - Initial package
